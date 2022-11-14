@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-ES"> 
+<head>
+    <link rel="stylesheet" href="Estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Formulario de entrevista
+    </title>
+</head>
+<body>
+    <h1>Formulario</video></h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="Nombre de etiqueta">
+                Nombre
+            </label>
+            <input type="text"
+                   id="name"
+                   placeholder="Introduzca su nombre" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="etiqueta de correo electrónico">
+                Email
+            </label>
+            <input type="email"
+                   id="email"
+                   placeholder="Introduce tu correo electrónico" />
+        </div>
+  
+        <div class="form-control">
+               Edad
+            <input type="date" name="fecha">
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Prefiere trabajar de 
+            </label>
+            <select name="role" id="role">
+                <option value="Interna">Interna</option>
+                <option value="Externa">Externa</option>
+                <option value="Ambas">Ambas</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+               Horario de jornada que prefieres
+            </label>
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Interna</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Jornada completa (8h)</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Media jornada (4h)</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                ¿Donde prefieres trabajar?
+            </label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Madrid</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Toledo</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Ambas</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Toda España</input></label>
+            <label for="inp-5">
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Cualquier comentario o sugerencia
+            </label>
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Enviar
+        </button>
+    <button type="reset" value="Borrar">
+        Borrar
+    </button>
+    </form>
+</body>
+  
+</html>
